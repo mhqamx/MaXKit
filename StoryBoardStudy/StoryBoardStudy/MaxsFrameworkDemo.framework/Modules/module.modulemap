@@ -1,0 +1,6 @@
+framework module MaxsFrameworkDemo {
+  umbrella header "MaxsFrameworkDemo.h"
+
+  export *
+  module * { export * }
+}

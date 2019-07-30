@@ -1,0 +1,14 @@
+#platform ios, '9.0'
+
+target 'StoryBoardStudy' do
+pod 'Masonry'
+pod 'JSONModel'
+pod 'SDWebImage'
+pod 'AFNetworking'
+pod 'YYText'
+pod 'MJRefresh'
+pod 'JZLocationConverter', '~> 1.0.0'
+pod 'FMDB'
+pod 'CTMediator'
+#pod 'WMPlayer'
+end
