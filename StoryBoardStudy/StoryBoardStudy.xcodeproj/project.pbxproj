@@ -583,20 +583,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-StoryBoardStudy/Pods-StoryBoardStudy-resources.sh",
-				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-StoryBoardStudy/Pods-StoryBoardStudy-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-StoryBoardStudy/Pods-StoryBoardStudy-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StoryBoardStudy/Pods-StoryBoardStudy-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StoryBoardStudy/Pods-StoryBoardStudy-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C24C99770B3E29A7BB3E6BF4 /* [CP] Check Pods Manifest.lock */ = {

@@ -1,4 +1,8 @@
 #platform ios, '9.0'
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+
+pod 'MXUIKit', :path=>'../MXUIKit'
+pod 'MXBussinessKit', :path=>'../MXBussinessKit'
 
 target 'StoryBoardStudy' do
 pod 'Masonry'
