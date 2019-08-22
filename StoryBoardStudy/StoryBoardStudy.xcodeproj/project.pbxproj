@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -43,6 +43,7 @@
 		482354CD228E9F5F008CF3A4 /* MXTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 482354CC228E9F5F008CF3A4 /* MXTreeNode.m */; };
 		483592FA229FB8E1000ABF62 /* MXDragonTigerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 483592F9229FB8E1000ABF62 /* MXDragonTigerViewController.m */; };
 		4853C3AC22D4882C00C473F0 /* MaxsFrameworkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4853C3AB22D4882C00C473F0 /* MaxsFrameworkDemo.framework */; };
+		488CB074230D29EB0013B209 /* MXSQLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 488CB073230D29EB0013B209 /* MXSQLite.m */; };
 		48A503AB21C74EFB00113742 /* chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A503AA21C74EFB00113742 /* chat.storyboard */; };
 		48A503B221C752BE00113742 /* MXUserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A503B121C752BE00113742 /* MXUserTableViewCell.m */; };
 		48A503B521C7532500113742 /* MXStaffTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A503B421C7532500113742 /* MXStaffTableViewCell.m */; };
@@ -115,6 +116,8 @@
 		483592F8229FB8E1000ABF62 /* MXDragonTigerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXDragonTigerViewController.h; sourceTree = "<group>"; };
 		483592F9229FB8E1000ABF62 /* MXDragonTigerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXDragonTigerViewController.m; sourceTree = "<group>"; };
 		4853C3AB22D4882C00C473F0 /* MaxsFrameworkDemo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MaxsFrameworkDemo.framework; sourceTree = "<group>"; };
+		488CB072230D29EB0013B209 /* MXSQLite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXSQLite.h; sourceTree = "<group>"; };
+		488CB073230D29EB0013B209 /* MXSQLite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXSQLite.m; sourceTree = "<group>"; };
 		48A503AA21C74EFB00113742 /* chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = chat.storyboard; sourceTree = "<group>"; };
 		48A503B021C752BE00113742 /* MXUserTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXUserTableViewCell.h; sourceTree = "<group>"; };
 		48A503B121C752BE00113742 /* MXUserTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXUserTableViewCell.m; sourceTree = "<group>"; };
@@ -469,6 +472,8 @@
 			children = (
 				48FE27E422E04A790095FA9E /* MXFormatterUtils.h */,
 				48FE27E522E04A790095FA9E /* MXFormatterUtils.m */,
+				488CB072230D29EB0013B209 /* MXSQLite.h */,
+				488CB073230D29EB0013B209 /* MXSQLite.m */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -625,6 +630,7 @@
 			files = (
 				482354CD228E9F5F008CF3A4 /* MXTreeNode.m in Sources */,
 				481D3A3521C0D7220031B456 /* MXLoginModel.m in Sources */,
+				488CB074230D29EB0013B209 /* MXSQLite.m in Sources */,
 				48A503B521C7532500113742 /* MXStaffTableViewCell.m in Sources */,
 				48A503B221C752BE00113742 /* MXUserTableViewCell.m in Sources */,
 				4804037B227E6EC6006DF07B /* MXIdNoField.m in Sources */,

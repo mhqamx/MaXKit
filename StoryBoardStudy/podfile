@@ -1,5 +1,6 @@
 #platform ios, '9.0'
 source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+source 'https://github.com/mhqamx/MXSpec.git'
 
 pod 'MXUIKit', :path=>'../MXUIKit'
 pod 'MXBussinessKit', :path=>'../MXBussinessKit'
@@ -8,7 +9,6 @@ target 'StoryBoardStudy' do
 pod 'Masonry'
 pod 'JSONModel'
 pod 'SDWebImage'
-pod 'AFNetworking'
 pod 'YYText'
 pod 'MJRefresh'
 pod 'JZLocationConverter', '~> 1.0.0'
