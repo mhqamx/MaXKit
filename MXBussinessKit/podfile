@@ -1,5 +1,11 @@
+platform :ios, '8.0'
+
 source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+source 'https://github.com/mhqamx/MXSpec.git'
 
 target 'MXBussinessKit' do
-pod 'AFNetworking'
+	pod 'AFNetworking', '~>3.1.0'
+	# pod 'MaxSqlite', '~>1.0.0'
+	pod 'MXContacts', '~>1.0.0'
+	pod 'FMDB', '~>2.7.2'
 end
