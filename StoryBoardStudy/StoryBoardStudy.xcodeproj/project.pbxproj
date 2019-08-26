@@ -359,13 +359,6 @@
 			path = constent;
 			sourceTree = "<group>";
 		};
-		482328082249BB1600CA1CE4 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		483592F7229FB8CD000ABF62 /* dragonTiger */ = {
 			isa = PBXGroup;
 			children = (
@@ -378,7 +371,6 @@
 		48A503AC21C74F7400113742 /* chat */ = {
 			isa = PBXGroup;
 			children = (
-				482328082249BB1600CA1CE4 /* ViewModel */,
 				48F36B7821C8A29700615F5C /* view */,
 				48A503BC21C7855D00113742 /* controller */,
 				48A503AD21C74F7400113742 /* Cells */,
@@ -819,6 +811,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.seaway.directbank.tieling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s i386 x86";
 			};
 			name = Debug;
 		};
@@ -847,6 +840,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.seaway.directbank.tieling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s i386 x86";
 			};
 			name = Release;
 		};
