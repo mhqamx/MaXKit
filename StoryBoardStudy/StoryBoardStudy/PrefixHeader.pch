@@ -2,14 +2,12 @@
 //  PrefixHeader.pch
 //  StoryBoardStudy
 //
-//  Created by 马霄 on 2018/12/12.
-//  Copyright © 2018 马霄. All rights reserved.
+//  Created by 马霄 on 2019/9/2.
+//  Copyright © 2019 马霄. All rights reserved.
 //
 
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
-
-#import "Define.h"
 
 #import <Masonry.h>
 #import <YYText.h>

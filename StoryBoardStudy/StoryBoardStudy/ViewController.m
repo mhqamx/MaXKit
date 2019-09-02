@@ -41,6 +41,28 @@
     
     [self stringTest];
     
+    NSArray *nums = @[@2, @5, @9, @11];
+    for (int i = 0; i < nums.count; i++) {
+        for (int j = 0; j < nums.count; j++) {
+            if (([nums[i] intValue] + [nums[j] intValue]) == 7) {
+                NSLog(@"i ---- %d, j ---- %d", i, j);
+            }
+        }
+    }
+    
+    
+    for (NSNumber *num1 in nums) {
+        for (NSNumber *num2 in nums) {
+            if ([num1 intValue] + [num2 intValue] == 7) {
+                NSLog(@"num1 ---- %@, num2 ---- %@", num1, num2);
+                NSInteger index1 = [nums indexOfObject:num1];
+                NSInteger index2 = [nums indexOfObject:num2];
+                NSLog(@"index1 --- %d, index2 --- %d", index1, index2);
+            }
+        }
+    }
+    
+    
     MXViewT *tView = [[MXViewT alloc] initWithFrame:CGRectMake(0, SCREEN_HEIGHT - DEFAULTCELLHEIGHT*3, SCREEN_WIDTH, DEFAULTCELLHEIGHT*3)];
     tView.clickBlock = ^(NSInteger index) {
         NSLog(@"click Index --- %ld", index);
