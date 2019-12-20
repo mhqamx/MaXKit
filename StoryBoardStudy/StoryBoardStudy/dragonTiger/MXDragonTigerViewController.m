@@ -9,20 +9,34 @@
 #import "MXDragonTigerViewController.h"
 
 @interface MXDragonTigerViewController ()
+/// 龙模块
 @property (nonatomic, strong) UIView *dragonView;
+/// 虎模块
 @property (nonatomic, strong) UIView *tigerView;
+/// 胜率
 @property (nonatomic, strong) UILabel *winRate;
+/// 随机按钮
 @property (nonatomic, strong) UIButton *randomBtn;
+/// 重置按钮
 @property (nonatomic, strong) UIButton *resetBtn;
+/// 龙赢次数
 @property (nonatomic, strong) UILabel *dragonWinNum;
+/// 虎赢次数
 @property (nonatomic, strong) UILabel *tigerWinNum;
+/// 龙胜率
 @property (nonatomic, assign) NSInteger dragonWinRate;
+/// 虎胜率
 @property (nonatomic, assign) NSInteger tigerWinRate;
 
+/// 龙赢数组
 @property (nonatomic, strong) NSMutableArray *dragonArr;
+/// 虎赢数组
 @property (nonatomic, strong) NSMutableArray *tigerArr;
+/// 总数据
 @property (nonatomic, strong) NSMutableArray *sumArr;
+/// 颜色数组
 @property (nonatomic, strong) NSMutableArray *colorViewArr;
+/// 总次数
 @property (nonatomic, assign) NSInteger sumIndex;
 @end
 
@@ -31,7 +45,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    
+    // 初始化页面数据
     self.dragonWinRate = 0;
     self.tigerWinRate = 0;
     self.sumIndex = 0;
