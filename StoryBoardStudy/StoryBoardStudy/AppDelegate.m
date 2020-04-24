@@ -9,20 +9,36 @@
 #import "AppDelegate.h"
 #import "MXBaseNavigationController.h"
 #import "ViewController.h"
+#import "MXTabBarViewController.h"
 
 @interface AppDelegate ()
 
+/**
+ 跟视图控制器
+ */
+@property (nonatomic, strong) MXTabBarViewController *tabBarController;
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    ViewController *vc = [[ViewController alloc] init];
-    MXBaseNavigationController *navi = [[MXBaseNavigationController alloc] initWithRootViewController:vc];
-    [self.window setRootViewController:navi];
+//    ViewController *vc = [[ViewController alloc] init];
+//    MXBaseNavigationController *navi = [[MXBaseNavigationController alloc] initWithRootViewController:vc];
+//    [self.window setRootViewController:navi];
+//
+    [self.window setRootViewController:self.tabBarController];
     [self.window makeKeyWindow];
     return YES;
+}
+
+
+#pragma mark - Getter/Setter
+- (MXTabBarViewController *)tabBarController {
+    if (!_tabBarController) {
+        _tabBarController = [[MXTabBarViewController alloc] init];
+    }
+    return _tabBarController;
 }
 
 

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>tabBar_item_title</key>
+		<string>资讯</string>
+		<key>tabBar_item_image</key>
+		<string>tabbar_homemenus_zixun</string>
+		<key>tabBar_item_image_highlight</key>
+		<string>tabbar_homemenus_zixun_highlight</string>
+		<key>tabBar_item_storyboard_identifier</key>
+		<string>NewsModel</string>
+		<key>tabBar_item_rootController_identifier</key>
+		<string>HomeViewControllerIdentifier</string>
+	</dict>
+	<dict>
+		<key>tabBar_item_title</key>
+		<string>赛事</string>
+		<key>tabBar_item_image</key>
+        <string>tabbar_homemenus_zixun</string>
+        <key>tabBar_item_image_highlight</key>
+        <string>tabbar_homemenus_zixun_highlight</string>
+		<key>tabBar_item_storyboard_identifier</key>
+		<string>NewsModel</string>
+		<key>tabBar_item_rootController_identifier</key>
+		<string>HomeViewControllerIdentifier</string>
+	</dict>
+	<dict>
+		<key>tabBar_item_title</key>
+		<string>社区</string>
+		<key>tabBar_item_image</key>
+        <string>tabbar_homemenus_zixun</string>
+        <key>tabBar_item_image_highlight</key>
+        <string>tabbar_homemenus_zixun_highlight</string>
+		<key>tabBar_item_storyboard_identifier</key>
+		<string>NewsModel</string>
+		<key>tabBar_item_rootController_identifier</key>
+		<string>HomeViewControllerIdentifier</string>
+	</dict>
+    <dict>
+        <key>tabBar_item_title</key>
+        <string>战绩</string>
+        <key>tabBar_item_image</key>
+        <string>tabbar_homemenus_zixun</string>
+        <key>tabBar_item_image_highlight</key>
+        <string>tabbar_homemenus_zixun_highlight</string>
+        <key>tabBar_item_storyboard_identifier</key>
+        <string>NewsModel</string>
+        <key>tabBar_item_rootController_identifier</key>
+        <string>HomeViewControllerIdentifier</string>
+    </dict>
+    <dict>
+        <key>tabBar_item_title</key>
+        <string>我的</string>
+        <key>tabBar_item_image</key>
+        <string>tabbar_homemenus_zixun</string>
+        <key>tabBar_item_image_highlight</key>
+        <string>tabbar_homemenus_zixun_highlight</string>
+        <key>tabBar_item_storyboard_identifier</key>
+        <string>NewsModel</string>
+        <key>tabBar_item_rootController_identifier</key>
+        <string>HomeViewControllerIdentifier</string>
+    </dict>
+</array>
+</plist>

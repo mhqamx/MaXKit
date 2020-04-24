@@ -57,7 +57,7 @@
                 NSLog(@"num1 ---- %@, num2 ---- %@", num1, num2);
                 NSInteger index1 = [nums indexOfObject:num1];
                 NSInteger index2 = [nums indexOfObject:num2];
-                NSLog(@"index1 --- %d, index2 --- %d", index1, index2);
+                NSLog(@"index1 --- %ld, index2 --- %ld", index1, index2);
             }
         }
     }

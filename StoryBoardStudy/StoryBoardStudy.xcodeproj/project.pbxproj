@@ -57,6 +57,10 @@
 		4853C3AC22D4882C00C473F0 /* MaxsFrameworkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4853C3AB22D4882C00C473F0 /* MaxsFrameworkDemo.framework */; };
 		48A503AB21C74EFB00113742 /* chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A503AA21C74EFB00113742 /* chat.storyboard */; };
 		48AB764E21D0C65600384041 /* MXImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AB764D21D0C65600384041 /* MXImageViewController.m */; };
+		48B30D5A2452C5FE00E8E31D /* MXTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B30D592452C5FE00E8E31D /* MXTabBarViewController.m */; };
+		48B30D5D2452C88800E8E31D /* HomeMenusPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48B30D5C2452C88800E8E31D /* HomeMenusPlist.plist */; };
+		48B30D5F2452CC2400E8E31D /* NewsModel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B30D5E2452CC2400E8E31D /* NewsModel.storyboard */; };
+		48B30D632452D49800E8E31D /* MXTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B30D622452D49800E8E31D /* MXTabBarItem.m */; };
 		91D78FA5C93DBB9E94F7BB1B /* libPods-StoryBoardStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CEEA7B582E5027413BDB70 /* libPods-StoryBoardStudy.a */; };
 /* End PBXBuildFile section */
 
@@ -142,6 +146,12 @@
 		48A503AA21C74EFB00113742 /* chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = chat.storyboard; sourceTree = "<group>"; };
 		48AB764C21D0C65600384041 /* MXImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXImageViewController.h; sourceTree = "<group>"; };
 		48AB764D21D0C65600384041 /* MXImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXImageViewController.m; sourceTree = "<group>"; };
+		48B30D582452C5FE00E8E31D /* MXTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXTabBarViewController.h; sourceTree = "<group>"; };
+		48B30D592452C5FE00E8E31D /* MXTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXTabBarViewController.m; sourceTree = "<group>"; };
+		48B30D5C2452C88800E8E31D /* HomeMenusPlist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HomeMenusPlist.plist; sourceTree = "<group>"; };
+		48B30D5E2452CC2400E8E31D /* NewsModel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewsModel.storyboard; sourceTree = "<group>"; };
+		48B30D612452D49800E8E31D /* MXTabBarItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXTabBarItem.h; sourceTree = "<group>"; };
+		48B30D622452D49800E8E31D /* MXTabBarItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXTabBarItem.m; sourceTree = "<group>"; };
 		82CEEA7B582E5027413BDB70 /* libPods-StoryBoardStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StoryBoardStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6E39158614E44934AC5A72 /* Pods-StoryBoardStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoryBoardStudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-StoryBoardStudy/Pods-StoryBoardStudy.release.xcconfig"; sourceTree = "<group>"; };
 		FCC0F1021C15E615164BF659 /* Pods-StoryBoardStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoryBoardStudy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StoryBoardStudy/Pods-StoryBoardStudy.debug.xcconfig"; sourceTree = "<group>"; };
@@ -196,9 +206,10 @@
 		4811F2E12387C52D007DDBEB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				48B30D572452C5C600E8E31D /* baseTabbar */,
+				4811F2E62387C52D007DDBEB /* MXBaseViewController.h */,
 				4811F2E22387C52D007DDBEB /* MXBaseViewController.m */,
 				4811F2E32387C52D007DDBEB /* baseNavi */,
-				4811F2E62387C52D007DDBEB /* MXBaseViewController.h */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -224,6 +235,7 @@
 		4811F2EA2387C52D007DDBEB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				48B30D602452D1FE00E8E31D /* tabbar */,
 				4811F2EB2387C52D007DDBEB /* MXBaseView.m */,
 				4811F2EC2387C52D007DDBEB /* MXBaseView.h */,
 			);
@@ -420,6 +432,7 @@
 		481D3A0221C099D70031B456 /* StoryBoardStudy */ = {
 			isa = PBXGroup;
 			children = (
+				48B30D5B2452C85300E8E31D /* resources */,
 				4811F2F32387C6AA007DDBEB /* Classes */,
 				4811F2F12387C619007DDBEB /* constent */,
 				4811F2E02387C52D007DDBEB /* base */,
@@ -452,6 +465,7 @@
 			children = (
 				481D3A4021C0F92C0031B456 /* Lanuch.storyboard */,
 				48A503AA21C74EFB00113742 /* chat.storyboard */,
+				48B30D5E2452CC2400E8E31D /* NewsModel.storyboard */,
 			);
 			path = storyboards;
 			sourceTree = "<group>";
@@ -463,6 +477,32 @@
 				483592F9229FB8E1000ABF62 /* MXDragonTigerViewController.m */,
 			);
 			path = dragonTiger;
+			sourceTree = "<group>";
+		};
+		48B30D572452C5C600E8E31D /* baseTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				48B30D582452C5FE00E8E31D /* MXTabBarViewController.h */,
+				48B30D592452C5FE00E8E31D /* MXTabBarViewController.m */,
+			);
+			path = baseTabbar;
+			sourceTree = "<group>";
+		};
+		48B30D5B2452C85300E8E31D /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				48B30D5C2452C88800E8E31D /* HomeMenusPlist.plist */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		48B30D602452D1FE00E8E31D /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				48B30D612452D49800E8E31D /* MXTabBarItem.h */,
+				48B30D622452D49800E8E31D /* MXTabBarItem.m */,
+			);
+			path = tabbar;
 			sourceTree = "<group>";
 		};
 		683AA9EFBB8795139BF43290 /* Pods */ = {
@@ -555,12 +595,14 @@
 				48098283229CC9DF0043797C /* 一.wav in Resources */,
 				481D3A0B21C099D70031B456 /* Main.storyboard in Resources */,
 				4809828C229CC9DF0043797C /* 千.wav in Resources */,
+				48B30D5F2452CC2400E8E31D /* NewsModel.storyboard in Resources */,
 				48098290229CC9DF0043797C /* 四.wav in Resources */,
 				4809828D229CC9DF0043797C /* 点.wav in Resources */,
 				48098292229CC9DF0043797C /* 九.wav in Resources */,
 				481D3A4121C0F92C0031B456 /* Lanuch.storyboard in Resources */,
 				48098286229CC9DF0043797C /* 八.wav in Resources */,
 				48098285229CC9DF0043797C /* 六.wav in Resources */,
+				48B30D5D2452C88800E8E31D /* HomeMenusPlist.plist in Resources */,
 				48098284229CC9DF0043797C /* 七.wav in Resources */,
 				48098289229CC9DF0043797C /* 吉祥生活成功收款.wav in Resources */,
 			);
@@ -622,9 +664,11 @@
 				4811F3082387C6AA007DDBEB /* MXFormatterUtils.m in Sources */,
 				4811F3322387C706007DDBEB /* MXChatInputTableViewCell.m in Sources */,
 				4811F31A2387C6E3007DDBEB /* MXIdNoField.m in Sources */,
+				48B30D632452D49800E8E31D /* MXTabBarItem.m in Sources */,
 				482354CD228E9F5F008CF3A4 /* MXTreeNode.m in Sources */,
 				4811F3192387C6E3007DDBEB /* MXLoginModel.m in Sources */,
 				4811F30A2387C6AA007DDBEB /* MXFMDBManager.m in Sources */,
+				48B30D5A2452C5FE00E8E31D /* MXTabBarViewController.m in Sources */,
 				482354CA228E9566008CF3A4 /* MXViewT.m in Sources */,
 				4811F32F2387C706007DDBEB /* MXEmptyTableViewCell.m in Sources */,
 				4811F3332387C706007DDBEB /* MXChatModel.m in Sources */,

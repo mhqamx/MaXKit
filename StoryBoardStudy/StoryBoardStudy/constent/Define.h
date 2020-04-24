@@ -35,6 +35,12 @@
 #define IPHONE_568  (SCREEN_HEIGHT == 568)
 #define IPHONE_480  (SCREEN_HEIGHT == 480)
 
+
+#define APP_COLOR_TABBAR_TITLE              RGB(195.f, 195.f, 195.f)
+#define APP_COLOR_TABBAR_TITLE_HIGHLIGHT    RGB(51.f, 51.f, 51.f)
+
+
+
 #pragma mark - 字体相关
 #define APPFONT(fn, fs)                         [UIFont fontWithName:fn size:(fs)]
 
@@ -42,6 +48,8 @@
 #define HELVETICA(fs)                           APPFONT(@"Helvetica", fs)
 #define HELVETICABOLD(fs)                       APPFONT(@"Helvetica-Bold", fs)
 
+#define APP_FONT_TABBAR_TITLE                   HELVETICA(12.f)
+#define APP_FONT_TABBAR_TITLE_HIGHLIGHT         HELVETICA(12.f)
 
 #define CHATCONTENT_MAXWIDTH        SCREEN_WIDTH - 50
 
