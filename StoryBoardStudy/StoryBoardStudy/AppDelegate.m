@@ -23,12 +23,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-//    ViewController *vc = [[ViewController alloc] init];
-//    MXBaseNavigationController *navi = [[MXBaseNavigationController alloc] initWithRootViewController:vc];
-//    [self.window setRootViewController:navi];
+    ViewController *vc = [[ViewController alloc] init];
+    MXBaseNavigationController *navi = [[MXBaseNavigationController alloc] initWithRootViewController:vc];
+    [self.window setRootViewController:navi];
 //
-    [self.window setRootViewController:self.tabBarController];
-    [self.window makeKeyWindow];
+//    [self.window setRootViewController:self.tabBarController];
+//    [self.window makeKeyWindow];
     return YES;
 }
 

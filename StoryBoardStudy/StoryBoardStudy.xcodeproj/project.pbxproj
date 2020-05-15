@@ -51,16 +51,26 @@
 		481D3A1021C099D80031B456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 481D3A0E21C099D80031B456 /* LaunchScreen.storyboard */; };
 		481D3A1321C099D80031B456 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 481D3A1221C099D80031B456 /* main.m */; };
 		481D3A4121C0F92C0031B456 /* Lanuch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 481D3A4021C0F92C0031B456 /* Lanuch.storyboard */; };
+		482254E324629A2100A1376E /* area3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 482254E224629A2100A1376E /* area3.txt */; };
 		482354CA228E9566008CF3A4 /* MXViewT.m in Sources */ = {isa = PBXBuildFile; fileRef = 482354C9228E9566008CF3A4 /* MXViewT.m */; };
 		482354CD228E9F5F008CF3A4 /* MXTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 482354CC228E9F5F008CF3A4 /* MXTreeNode.m */; };
 		483592FA229FB8E1000ABF62 /* MXDragonTigerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 483592F9229FB8E1000ABF62 /* MXDragonTigerViewController.m */; };
 		4853C3AC22D4882C00C473F0 /* MaxsFrameworkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4853C3AB22D4882C00C473F0 /* MaxsFrameworkDemo.framework */; };
+		4866741E245B441A00AC8483 /* JHAddressPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 48667416245B441A00AC8483 /* JHAddressPicker.m */; };
+		4866741F245B441A00AC8483 /* JHAddressPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48667418245B441A00AC8483 /* JHAddressPickView.m */; };
+		48667420245B441A00AC8483 /* address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4866741A245B441A00AC8483 /* address.plist */; };
+		48667421245B441A00AC8483 /* JHAddressToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4866741D245B441A00AC8483 /* JHAddressToolBar.m */; };
+		48667424245B44F300AC8483 /* MXAddressPickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48667423245B44F300AC8483 /* MXAddressPickViewController.m */; };
+		48667430245FFCD800AC8483 /* place.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4866742F245FFCD800AC8483 /* place.txt */; };
+		486674322460040E00AC8483 /* area2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 486674312460040E00AC8483 /* area2.txt */; };
+		489A3AAF246E66FD009895EB /* MXAddressPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A3AAE246E66FD009895EB /* MXAddressPickView.m */; };
 		48A503AB21C74EFB00113742 /* chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A503AA21C74EFB00113742 /* chat.storyboard */; };
 		48AB764E21D0C65600384041 /* MXImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AB764D21D0C65600384041 /* MXImageViewController.m */; };
 		48B30D5A2452C5FE00E8E31D /* MXTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B30D592452C5FE00E8E31D /* MXTabBarViewController.m */; };
 		48B30D5D2452C88800E8E31D /* HomeMenusPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48B30D5C2452C88800E8E31D /* HomeMenusPlist.plist */; };
 		48B30D5F2452CC2400E8E31D /* NewsModel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B30D5E2452CC2400E8E31D /* NewsModel.storyboard */; };
 		48B30D632452D49800E8E31D /* MXTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B30D622452D49800E8E31D /* MXTabBarItem.m */; };
+		48ED3505245AD4430089749E /* area.txt in Resources */ = {isa = PBXBuildFile; fileRef = 48ED3504245AD4430089749E /* area.txt */; };
 		91D78FA5C93DBB9E94F7BB1B /* libPods-StoryBoardStudy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CEEA7B582E5027413BDB70 /* libPods-StoryBoardStudy.a */; };
 /* End PBXBuildFile section */
 
@@ -135,6 +145,7 @@
 		481D3A1121C099D80031B456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		481D3A1221C099D80031B456 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		481D3A4021C0F92C0031B456 /* Lanuch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lanuch.storyboard; sourceTree = "<group>"; };
+		482254E224629A2100A1376E /* area3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = area3.txt; sourceTree = "<group>"; };
 		482354C8228E9566008CF3A4 /* MXViewT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXViewT.h; sourceTree = "<group>"; };
 		482354C9228E9566008CF3A4 /* MXViewT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXViewT.m; sourceTree = "<group>"; };
 		482354CB228E9F5F008CF3A4 /* MXTreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXTreeNode.h; sourceTree = "<group>"; };
@@ -142,7 +153,20 @@
 		483592F8229FB8E1000ABF62 /* MXDragonTigerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXDragonTigerViewController.h; sourceTree = "<group>"; };
 		483592F9229FB8E1000ABF62 /* MXDragonTigerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXDragonTigerViewController.m; sourceTree = "<group>"; };
 		4853C3AB22D4882C00C473F0 /* MaxsFrameworkDemo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MaxsFrameworkDemo.framework; sourceTree = "<group>"; };
+		48667416245B441A00AC8483 /* JHAddressPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHAddressPicker.m; sourceTree = "<group>"; };
+		48667417245B441A00AC8483 /* JHAddressToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAddressToolBar.h; sourceTree = "<group>"; };
+		48667418245B441A00AC8483 /* JHAddressPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHAddressPickView.m; sourceTree = "<group>"; };
+		4866741A245B441A00AC8483 /* address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = address.plist; sourceTree = "<group>"; };
+		4866741B245B441A00AC8483 /* JHAddressPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAddressPicker.h; sourceTree = "<group>"; };
+		4866741C245B441A00AC8483 /* JHAddressPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHAddressPickView.h; sourceTree = "<group>"; };
+		4866741D245B441A00AC8483 /* JHAddressToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHAddressToolBar.m; sourceTree = "<group>"; };
+		48667422245B44F300AC8483 /* MXAddressPickViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXAddressPickViewController.h; sourceTree = "<group>"; };
+		48667423245B44F300AC8483 /* MXAddressPickViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXAddressPickViewController.m; sourceTree = "<group>"; };
+		4866742F245FFCD800AC8483 /* place.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = place.txt; sourceTree = "<group>"; };
+		486674312460040E00AC8483 /* area2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = area2.txt; sourceTree = "<group>"; };
 		489110DA231CED3200BE0ED0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		489A3AAD246E66FD009895EB /* MXAddressPickView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXAddressPickView.h; sourceTree = "<group>"; };
+		489A3AAE246E66FD009895EB /* MXAddressPickView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXAddressPickView.m; sourceTree = "<group>"; };
 		48A503AA21C74EFB00113742 /* chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = chat.storyboard; sourceTree = "<group>"; };
 		48AB764C21D0C65600384041 /* MXImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXImageViewController.h; sourceTree = "<group>"; };
 		48AB764D21D0C65600384041 /* MXImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXImageViewController.m; sourceTree = "<group>"; };
@@ -152,6 +176,7 @@
 		48B30D5E2452CC2400E8E31D /* NewsModel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewsModel.storyboard; sourceTree = "<group>"; };
 		48B30D612452D49800E8E31D /* MXTabBarItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXTabBarItem.h; sourceTree = "<group>"; };
 		48B30D622452D49800E8E31D /* MXTabBarItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXTabBarItem.m; sourceTree = "<group>"; };
+		48ED3504245AD4430089749E /* area.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = area.txt; sourceTree = "<group>"; };
 		82CEEA7B582E5027413BDB70 /* libPods-StoryBoardStudy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StoryBoardStudy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6E39158614E44934AC5A72 /* Pods-StoryBoardStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoryBoardStudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-StoryBoardStudy/Pods-StoryBoardStudy.release.xcconfig"; sourceTree = "<group>"; };
 		FCC0F1021C15E615164BF659 /* Pods-StoryBoardStudy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoryBoardStudy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StoryBoardStudy/Pods-StoryBoardStudy.debug.xcconfig"; sourceTree = "<group>"; };
@@ -253,6 +278,7 @@
 		4811F2F32387C6AA007DDBEB /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				48667415245B437800AC8483 /* adressPicker */,
 				4811F31C2387C706007DDBEB /* chat */,
 				4811F30C2387C6E3007DDBEB /* lanuch */,
 				4811F2F42387C6AA007DDBEB /* msgCode */,
@@ -479,6 +505,40 @@
 			path = dragonTiger;
 			sourceTree = "<group>";
 		};
+		48667415245B437800AC8483 /* adressPicker */ = {
+			isa = PBXGroup;
+			children = (
+				489A3AAC246E66D8009895EB /* view */,
+				4866741B245B441A00AC8483 /* JHAddressPicker.h */,
+				48667416245B441A00AC8483 /* JHAddressPicker.m */,
+				4866741C245B441A00AC8483 /* JHAddressPickView.h */,
+				48667418245B441A00AC8483 /* JHAddressPickView.m */,
+				48667417245B441A00AC8483 /* JHAddressToolBar.h */,
+				4866741D245B441A00AC8483 /* JHAddressToolBar.m */,
+				48667419245B441A00AC8483 /* resource */,
+				48667422245B44F300AC8483 /* MXAddressPickViewController.h */,
+				48667423245B44F300AC8483 /* MXAddressPickViewController.m */,
+			);
+			path = adressPicker;
+			sourceTree = "<group>";
+		};
+		48667419245B441A00AC8483 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				4866741A245B441A00AC8483 /* address.plist */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		489A3AAC246E66D8009895EB /* view */ = {
+			isa = PBXGroup;
+			children = (
+				489A3AAD246E66FD009895EB /* MXAddressPickView.h */,
+				489A3AAE246E66FD009895EB /* MXAddressPickView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		48B30D572452C5C600E8E31D /* baseTabbar */ = {
 			isa = PBXGroup;
 			children = (
@@ -491,6 +551,10 @@
 		48B30D5B2452C85300E8E31D /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				482254E224629A2100A1376E /* area3.txt */,
+				4866742F245FFCD800AC8483 /* place.txt */,
+				486674312460040E00AC8483 /* area2.txt */,
+				48ED3504245AD4430089749E /* area.txt */,
 				48B30D5C2452C88800E8E31D /* HomeMenusPlist.plist */,
 			);
 			path = resources;
@@ -589,6 +653,7 @@
 				481D3A0D21C099D80031B456 /* Assets.xcassets in Resources */,
 				48A503AB21C74EFB00113742 /* chat.storyboard in Resources */,
 				48098287229CC9DF0043797C /* 二.wav in Resources */,
+				48ED3505245AD4430089749E /* area.txt in Resources */,
 				4809828F229CC9DF0043797C /* 三.wav in Resources */,
 				4809828B229CC9DF0043797C /* 五.wav in Resources */,
 				4809828A229CC9DF0043797C /* 百.wav in Resources */,
@@ -596,14 +661,18 @@
 				481D3A0B21C099D70031B456 /* Main.storyboard in Resources */,
 				4809828C229CC9DF0043797C /* 千.wav in Resources */,
 				48B30D5F2452CC2400E8E31D /* NewsModel.storyboard in Resources */,
+				482254E324629A2100A1376E /* area3.txt in Resources */,
 				48098290229CC9DF0043797C /* 四.wav in Resources */,
+				48667420245B441A00AC8483 /* address.plist in Resources */,
 				4809828D229CC9DF0043797C /* 点.wav in Resources */,
 				48098292229CC9DF0043797C /* 九.wav in Resources */,
 				481D3A4121C0F92C0031B456 /* Lanuch.storyboard in Resources */,
 				48098286229CC9DF0043797C /* 八.wav in Resources */,
 				48098285229CC9DF0043797C /* 六.wav in Resources */,
+				486674322460040E00AC8483 /* area2.txt in Resources */,
 				48B30D5D2452C88800E8E31D /* HomeMenusPlist.plist in Resources */,
 				48098284229CC9DF0043797C /* 七.wav in Resources */,
+				48667430245FFCD800AC8483 /* place.txt in Resources */,
 				48098289229CC9DF0043797C /* 吉祥生活成功收款.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -665,20 +734,25 @@
 				4811F3322387C706007DDBEB /* MXChatInputTableViewCell.m in Sources */,
 				4811F31A2387C6E3007DDBEB /* MXIdNoField.m in Sources */,
 				48B30D632452D49800E8E31D /* MXTabBarItem.m in Sources */,
+				4866741F245B441A00AC8483 /* JHAddressPickView.m in Sources */,
 				482354CD228E9F5F008CF3A4 /* MXTreeNode.m in Sources */,
+				489A3AAF246E66FD009895EB /* MXAddressPickView.m in Sources */,
 				4811F3192387C6E3007DDBEB /* MXLoginModel.m in Sources */,
+				48667421245B441A00AC8483 /* JHAddressToolBar.m in Sources */,
 				4811F30A2387C6AA007DDBEB /* MXFMDBManager.m in Sources */,
 				48B30D5A2452C5FE00E8E31D /* MXTabBarViewController.m in Sources */,
 				482354CA228E9566008CF3A4 /* MXViewT.m in Sources */,
 				4811F32F2387C706007DDBEB /* MXEmptyTableViewCell.m in Sources */,
 				4811F3332387C706007DDBEB /* MXChatModel.m in Sources */,
 				4811F2EE2387C52D007DDBEB /* MXBaseNavigationController.m in Sources */,
+				4866741E245B441A00AC8483 /* JHAddressPicker.m in Sources */,
 				4811F2F02387C52D007DDBEB /* MXBaseView.m in Sources */,
 				4811F3072387C6AA007DDBEB /* UIColor+Category.m in Sources */,
 				4811F31B2387C6E3007DDBEB /* MXFinanceView.m in Sources */,
 				4811F3182387C6E3007DDBEB /* MXLoginViewController.m in Sources */,
 				483592FA229FB8E1000ABF62 /* MXDragonTigerViewController.m in Sources */,
 				481D3A0821C099D70031B456 /* ViewController.m in Sources */,
+				48667424245B44F300AC8483 /* MXAddressPickViewController.m in Sources */,
 				481D3A1321C099D80031B456 /* main.m in Sources */,
 				4811F2EF2387C52D007DDBEB /* MXBaseModel.m in Sources */,
 				4811F2ED2387C52D007DDBEB /* MXBaseViewController.m in Sources */,

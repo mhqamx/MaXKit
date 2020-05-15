@@ -21,6 +21,8 @@
 #import <MaxsFrameworkDemo/MaxObject.h>
 #import <MaxsFrameworkDemo/MaxPrivate.h>
 
+#import "MXAddressPickViewController.h"
+
 #import <PushKit/PushKit.h>
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource, privateMethodDelegate>
@@ -36,6 +38,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"home";
+    
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+
+    NSString* strDocDir = [paths objectAtIndex:0];
+    
+    NSLog(@"path ---- %@", strDocDir);
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"area3" ofType:@"txt"];
+       NSLog(@"path = %@",path);
+       
+       NSArray *array = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:path] options:NSJSONReadingMutableLeaves error:nil];
+       
+       NSString *newPath = [NSString stringWithFormat:@"%@%@",[[NSBundle mainBundle] bundlePath],@"/place.plist" ];
+       NSLog(@"newPath = %@", newPath);
+       
+       [array writeToFile:newPath atomically:YES];
+    
+    
+    
+    
+    
     [self configUI];
     [self configUINavigationBarItems];
     
@@ -314,7 +337,11 @@
             [self.navigationController pushViewController:betVC animated:YES];
         }
             break;
-        default:
+        case 7:{
+            MXAddressPickViewController *addressVC = [[MXAddressPickViewController alloc] init];
+            [self.navigationController pushViewController:addressVC animated:YES];
+        }
+                break;        default:
             break;
     }
 }
@@ -365,7 +392,7 @@
 }
 
 - (NSArray *)titleArr {
-    return @[@"聊天", @"图片伸缩", @"登录", @"block", @"alert", @"语音合成", @"龙 or 虎"];
+    return @[@"聊天", @"图片伸缩", @"登录", @"block", @"alert", @"语音合成", @"龙 or 虎", @"省市区"];
 }
 
 #pragma mark - 聊天界面
